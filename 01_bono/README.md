@@ -190,7 +190,7 @@ NCBIの上述以外のDB(GEOやPubMedなど)はINSDCの枠外＝データ交換�
 	  - RefSeqはINSDには入ってないが、DDBJからもリンクしているDBCLS謹製の[GGRNA](https://ggrna.dbcls.jp/)を使うと検索可能
 - 【統合TV】 遺伝子のRefSeq IDを調べ、そのmRNA、アミノ酸配列を取得する [`http://doi.org/10.7875/togotv.2017.086`](http://doi.org/10.7875/togotv.2017.086)
 
-### TogoTD
+### TogoID
 - [2021年7月8日公開](https://dbcls.rois.ac.jp/ja/2021/07/08/post1.html)
     - [`https://togoid.dbcls.jp`](https://togoid.dbcls.jp)
 - 生命科学分野におけるデータベース(DB)のID間の対応関係を検索および変換することができるウェブアプリケーション] 
