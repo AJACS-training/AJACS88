@@ -224,14 +224,14 @@ NCBIの上述以外のDB(GEOやPubMedなど)はINSDCの枠外＝データ交換�
 ![大域的アラインメントと局所的アラインメント](https://upload.wikimedia.org/wikipedia/commons/4/4b/Global-local-alignment.png)
 
 - 大域的アラインメント(Global alignment)
-  	- 配列中の全塩基(アミノ酸)がアラインされるようにしたもの
-	  - Needleman-Wunsch algorithm
+    - 配列中の全塩基(アミノ酸)がアラインされるようにしたもの
+	    - Needleman-Wunsch algorithm
 - 局所的アラインメント(Local alignment)
-	  - 部分的な類似が見つけられるようにしたもの
-	  - Smith-Waterman algorithm
-	  - Goad-Kanehisa algorithm
-	  - 配列類似性検索へ応用
-    - [なぜ相同性じゃなく類似性か](http://togetter.com/li/307635)
+    - 部分的な類似が見つけられるようにしたもの
+        - Smith-Waterman algorithm
+        - Goad-Kanehisa algorithm
+    - 配列類似性検索へ応用
+- [なぜ相同性じゃなく類似性か](http://togetter.com/li/307635)
 
 ### BLAST概説
 
