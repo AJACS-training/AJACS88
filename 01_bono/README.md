@@ -68,7 +68,7 @@
 	- 講義・講習などの参考資料や後輩指導の教材として利用できます。
 	- 今回の講習に関連する内容の多くは、[「塩基配列の検索、取得、比較を行う」](https://togotv.dbcls.jp/course.html?id=PL0uaKHgcG00YVdf_SS5kpKH9uqrYQLqn7)にあります。
 - **過去の講習会の内容はそのほとんどが統合TVに収録**されており、いつでもどこでも**繰り返し復習できる**ようになっています。
- 	- お探しの動画が見つからない or 統合TV未掲載の場合は、[統合TV番組リクエストフォーム](https://togotv.dbcls.jp/request.html)へどうぞ!
+    - お探しの動画が見つからない or 統合TV未掲載の場合は、[統合TV番組リクエストフォーム](https://togotv.dbcls.jp/request.html)へどうぞ!
         - 統合TVを作ってくれる方、[募集中!!](https://togotv.dbcls.jp/faq.html)
 
 ----
@@ -163,11 +163,11 @@
 [![https://gyazo.com/50a7d496b881d2c022bf9a15fecf893c](https://i.gyazo.com/50a7d496b881d2c022bf9a15fecf893c.png)](https://gyazo.com/50a7d496b881d2c022bf9a15fecf893c)
 
 - アクセッション番号
-	  - INSDの登録(accession)番号（例: `AB016472.1`）
-		    - 論文掲載の必須条件
-		    - データを他の研究者に再利用してもらうことが研究の価値を高める上でとても大事
+    - INSDの登録(accession)番号（例: `AB016472.1`）
+	    - 論文掲載の必須条件
+		- データを他の研究者に再利用してもらうことが研究の価値を高める上でとても大事
         - 末尾の`.数字`はバージョン情報
-	  - 日本だとDDBJへ。日本語でのやりとり可
+	- 日本だとDDBJへ。日本語でのやりとり可
 
 #### DDBJ/EMBL/GenBank
 - 今はAnnotated sequencesと呼ばれている昔（1990年ごろ）からあるDB
@@ -186,8 +186,8 @@ NCBIの上述以外のDB(GEOやPubMedなど)はINSDCの枠外＝データ交換�
 ### RefSeq
 
 - DDBJ/EMBL/GenBankに登録されたデータを **NCBIが独自に** curationした二次データベース
-      - 例: `NM_001043619.1`
-	  - RefSeqはINSDには入ってないが、DDBJからもリンクしているDBCLS謹製の[GGRNA](https://ggrna.dbcls.jp/)を使うと検索可能
+    - 例: `NM_001043619.1`
+    - RefSeqはINSDには入ってないが、DDBJからもリンクしているDBCLS謹製の[GGRNA](https://ggrna.dbcls.jp/)を使うと検索可能
 - 【統合TV】 遺伝子のRefSeq IDを調べ、そのmRNA、アミノ酸配列を取得する [`http://doi.org/10.7875/togotv.2017.086`](http://doi.org/10.7875/togotv.2017.086)
 
 ### TogoID
@@ -236,17 +236,17 @@ NCBIの上述以外のDB(GEOやPubMedなど)はINSDCの枠外＝データ交換�
 ### BLAST概説
 
 - BLASTとは
-	  - Basic Local Alignment Search Tool
-	  - 配列類似性検索のデファクトスタンダード
+    - Basic Local Alignment Search Tool
+    - 配列類似性検索のデファクトスタンダード
 - BLASTの動作原理
-	  - 質問配列(Query)
-	  - 検索対象DB(Sbjct)
+    - 質問配列(Query)
+    - 検索対象DB(Sbjct)
 
 [![https://gyazo.com/d832c82d9dc711abbfe0c7ef8951e72f](https://i.gyazo.com/d832c82d9dc711abbfe0c7ef8951e72f.png)](https://gyazo.com/d832c82d9dc711abbfe0c7ef8951e72f)
 
 - 質問配列とDBの組み合わせ→使うプログラム名が異なる
-	  - blastnだけが核酸配列レベルでの比較
-	  - 残り全てはアミノ酸配列レベルの比較
+    - blastnだけが核酸配列レベルでの比較
+	- 残り全てはアミノ酸配列レベルの比較
 
 [![https://gyazo.com/1b65876d8b7842b6428a1706e1927b52](https://i.gyazo.com/1b65876d8b7842b6428a1706e1927b52.png)](https://gyazo.com/1b65876d8b7842b6428a1706e1927b52)
 
@@ -271,7 +271,7 @@ NCBIの上述以外のDB(GEOやPubMedなど)はINSDCの枠外＝データ交換�
 ### 【発展】localBLAST
 
 - 大量にBLAST検索する際には自分のパソコンにインストールして使う(**localBLAST**)
-	  - Local BLASTの使い方〜導入・準備編(MacOSX版)〜 [`https://doi.org/10.7875/togotv.2020.094`](https://doi.org/10.7875/togotv.2020.094)
+	- Local BLASTの使い方〜導入・準備編(MacOSX版)〜 [`https://doi.org/10.7875/togotv.2020.094`](https://doi.org/10.7875/togotv.2020.094)
   	- Local BLASTの使い方〜検索実行・オプション(MacOSX版)〜 [`https://doi.org/10.7875/togotv.2021.019`](https://doi.org/10.7875/togotv.2021.019)
 - UNIXのコマンドライン操作が必要に。参考図書のデータ解析実戦道場（道場本）の3.2章参照。
 
@@ -279,9 +279,9 @@ NCBIの上述以外のDB(GEOやPubMedなど)はINSDCの枠外＝データ交換�
 
 - BLASTの誤表記ではない。The BLAST-like alignment toolで、BLAT
 - 検索対象DBがゲノム配列に特化した配列類似性検索
-	  - それゆえ、genome landing toolとも呼ばれる
+    - それゆえ、genome landing toolとも呼ばれる
 - 企業には有償のライセンス
-	  - 依然としてBLASTを使う例も多く
+    - 依然としてBLASTを使う例も多く
 - BLASTと同じ検索を、BLATを用いてやってみよう。統合TVを参考に。
     - 【統合TV】UCSC BLATを使って、ウイルスの持ち出した宿主の遺伝子配列がコードされている領域をアミノ酸配列レベルでゲノム中から探し当てる [`https://doi.org/10.7875/togotv.2017.124`](https://doi.org/10.7875/togotv.2017.124)
 
